@@ -24,6 +24,11 @@
             android:screenOrientation="portrait"
             />
 
+        <activity android:name=".uis.activities.PostDetailActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTop"
+            />
+
     </application>
 
 </manifest>

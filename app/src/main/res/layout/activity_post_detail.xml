@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.example.mradul.myredditapp.utils.SquareImageView
+            android:id="@+id/image_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ccc"/>
+
+        <RelativeLayout
+            android:padding="15dp"
+            android:id="@+id/body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/reddit_post_title"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="reddit_post_title"
+                android:textSize="24sp"/>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_below="@id/reddit_post_title"
+                android:id="@+id/reddit_post_author"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="reddit_post_author" />
+
+            <TextView
+                android:layout_marginTop="30dp"
+                android:id="@+id/content_textview"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Content"
+                android:layout_below="@id/reddit_post_author"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/reddit_post_body"
+                android:layout_marginTop="15dp"
+                android:layout_below="@id/content_textview"
+                android:text="reddit_post_body"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

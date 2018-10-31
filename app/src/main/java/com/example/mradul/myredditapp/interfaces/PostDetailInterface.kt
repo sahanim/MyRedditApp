@@ -1,9 +1,10 @@
 package com.example.mradul.myredditapp.interfaces
 
-import com.example.mradul.myredditapp.models.PostDetailObject
+import com.example.mradul.myredditapp.presenters.PostDetailAll
+
 
 interface PostDetailInterface {
-    fun didRecieveResposne(data: PostDetailObject){
+    fun didRecieveResposne(data: Array<PostDetailAll>){
 
     }
     fun didReceiveError(error: String){

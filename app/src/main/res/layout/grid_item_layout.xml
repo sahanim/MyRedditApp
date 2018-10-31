@@ -18,7 +18,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="320dp"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:background="#fff"
+        android:alpha=".75">
 
 
         <TextView
@@ -28,6 +30,8 @@
             android:layout_height="wrap_content"
             android:text="reddit_post_title"
             android:layout_margin="5dp"
+
+
             />
 
         <TextView
@@ -36,6 +40,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="reddit_post_author"
+
             />
 
 
